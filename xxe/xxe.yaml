@@ -1,0 +1,9 @@
+sinks:
+  - { method: "<org.xml.sax.XMLReader: void parse(org.xml.sax.InputSource)>", index: 0 }
+  - { method: "<org.jdom2.input.SAXBuilder: org.jdom2.Document build(org.xml.sax.InputSource)>", index: 0 }
+  - { method: "<org.dom4j.io.SAXReader: org.dom4j.Document read(org.xml.sax.InputSource)>", index: 0 }
+  - { method: "<org.xml.sax.XMLReader: void parse(org.xml.sax.InputSource)>", index: 0 }
+  - { method: "<javax.xml.parsers.SAXParser: void parse(org.xml.sax.InputSource, org.xml.sax.helpers.DefaultHandler)>", index: 0 }
+  - { method: "<org.apache.commons.digester3.Digester: java.lang.Object parse(java.io.Reader)>", index: 0 }
+  - { method: "<javax.xml.parsers.DocumentBuilder: org.w3c.dom.Document parse(org.xml.sax.InputSource)>", index: 0 }
+  - { method: "<org.dom4j.DocumentHelper: org.dom4j.Document parseText(java.lang.String)>", index: 0 }

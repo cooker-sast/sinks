@@ -1,0 +1,5 @@
+sinks:
+  - { method: "<com.thoughtworks.xstream.XStream: java.lang.Object fromXML(java.lang.String)>", index: 0 }
+  - { method: "<com.thoughtworks.xstream.XStream: java.lang.Object fromXML(java.io.Reader)>", index: 0 }
+  - { method: "<com.thoughtworks.xstream.XStream: java.lang.Object fromXML(java.net.URL)>", index: 0 }
+  - { method: "<com.thoughtworks.xstream.XStream: java.lang.Object fromXML(java.io.File)>", index: 0 }

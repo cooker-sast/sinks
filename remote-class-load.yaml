@@ -1,0 +1,3 @@
+sinks:
+  # class load ，远程类加载
+  - { method: "<java.lang.Class: java.lang.Class forName(java.lang.String,boolean,java.lang.ClassLoader)>", index: 2}

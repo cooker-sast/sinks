@@ -1,0 +1,5 @@
+sinks:
+  - { method: "<org.beetl.core.Template: java.lang.String render()>", index: base }
+  - { method: "<org.beetl.core.Template: void renderTo(java.io.Writer)>", index: base }
+  - { method: "<org.beetl.core.Template: void renderTo(java.io.OutputStream)>", index: base }
+  - { method: "<org.beetl.core.Template: void renderTo(org.beetl.core.ByteWriter)>", index: base }

@@ -1,0 +1,2 @@
+sinks:
+  - { method: "<jdk.jshell.JShell: java.util.List eval(java.lang.String)>", index: 0 }

@@ -1,0 +1,3 @@
+sinks:
+  # XMLDecoder 反序列化
+  - { method: "<java.beans.XMLDecoder: java.lang.Object readObject()>", index: base }

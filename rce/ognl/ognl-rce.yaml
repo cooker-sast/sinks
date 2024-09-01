@@ -1,0 +1,5 @@
+sinks:
+  # ognl 注入
+  - { method: "<ognl.Ognl: java.lang.Object getValue(java.lang.String,java.lang.Object)>" ,index: 0 }
+  - { method: "<ognl.Ognl: void setValue(java.lang.String,java.lang.Object,java.lang.Object)>" ,index: 0 }
+  - { method: "<org.apache.ibatis.ognl.Ognl: java.lang.Object getValue(java.lang.String,java.lang.Object)>" ,index: 0 }

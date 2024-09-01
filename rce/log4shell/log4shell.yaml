@@ -1,0 +1,8 @@
+sinks:
+  # log4j
+  - { method: "<org.apache.logging.log4j.Logger: void error(java.lang.String)>", index: 0}
+  - { method: "<org.apache.logging.log4j.Logger: void fatal(java.lang.String)>", index: 0}
+  - { method: "<org.apache.logging.log4j.Logger: void off(java.lang.String)>", index: 0}
+  - { method: "<org.apache.log4j.Category: void error(java.lang.Object)>", index: 0}
+  - { method: "<org.apache.log4j.Category: void fatal(java.lang.Object)>", index: 0}
+  - { method: "<org.apache.log4j.Category: void off(java.lang.Object)>", index: 0}

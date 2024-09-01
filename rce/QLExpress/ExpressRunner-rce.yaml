@@ -1,0 +1,3 @@
+sinks:
+  - { method: "<com.ql.util.express.ExpressRunner: java.lang.Object execute(java.lang.String,com.ql.util.express.IExpressContext,java.util.List,boolean,boolean)>", index: 0 }
+  - { method: "<com.ql.util.express.ExpressRunner: java.lang.Object execute(java.lang.String,com.ql.util.express.IExpressContext,java.util.List,boolean,boolean,org.apache.commons.logging.Log)>", index: 0 }

@@ -1,0 +1,3 @@
+# bcel类加载
+sinks:
+  - { method: "<com.sun.org.apache.bcel.internal.util.ClassLoader: java.lang.Class loadClass(java.lang.String,boolean)>",index: 0 }

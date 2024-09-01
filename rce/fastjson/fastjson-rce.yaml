@@ -1,0 +1,7 @@
+sinks:
+  - { method: "<com.alibaba.fastjson.JSONObject: com.alibaba.fastjson.JSONObject parseObject(java.lang.String)>", index: 0 }
+  - { method: "<com.alibaba.fastjson.JSON: com.alibaba.fastjson.JSONObject parseObject(java.lang.String)>", index: 0 }
+  - { method: "<com.alibaba.fastjson.JSON: java.lang.Object parse(java.lang.String)>", index: 0 }
+  - { method: "<com.alibaba.fastjson2.JSONObject: com.alibaba.fastjson2.JSONObject parseObject(java.lang.String)>", index: 0 }
+  - { method: "<com.alibaba.fastjson2.JSON: com.alibaba.fastjson2.JSONObject parseObject(java.lang.String)>", index: 0 }
+  - { method: "<com.alibaba.fastjson2.JSON: java.lang.Object parse(java.lang.String)>", index: 0 }

@@ -1,0 +1,3 @@
+sinks:
+  - { method: "<com.caucho.hessian.io.Hessian2Input: java.lang.Object readObject()>", index: 0 }
+  - { method: "<com.caucho.hessian.io.HessianInput: java.lang.Object readObject()>", index: 0 }

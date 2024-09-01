@@ -1,0 +1,4 @@
+sinks:
+  - { method: "<org.apache.velocity.Template: void merge(org.apache.velocity.context.Context,java.io.Writer)>", index: base }
+  - { method: "<org.apache.velocity.Template: void merge(org.apache.velocity.context.Context,java.io.Writer,java.util.List)>", index: base }
+

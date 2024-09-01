@@ -1,0 +1,13 @@
+sinks:
+  # jndi 注入
+  - { method: "<javax.naming.InitialContext: java.lang.Object lookup(java.lang.String)>", index: 0 }
+  - { method: "<javax.naming.Context: java.lang.Object lookup(java.lang.String)>", index: base }
+  - { method: "<javax.naming.Context: java.lang.Object lookup(javax.naming.Name)>", index: base }
+  - { method: "<javax.naming.directory.DirContext: javax.naming.directory.DirContext getSchema(javax.naming.Name)>", index: base }
+  - { method: "<javax.naming.directory.DirContext: javax.naming.directory.DirContext getSchema(java.lang.String)>", index: base }
+  - { method: "<javax.naming.directory.DirContext: javax.naming.directory.DirContext getSchemaClassDefinition(javax.naming.Name)>", index: base }
+  - { method: "<javax.naming.directory.DirContext: javax.naming.directory.DirContext getSchemaClassDefinition(java.lang.String)>", index: base }
+  - { method: "<javax.naming.directory.InitialDirContext: javax.naming.directory.DirContext getSchema(javax.naming.Name)>", index: 0 }
+  - { method: "<javax.naming.directory.InitialDirContext: javax.naming.directory.DirContext getSchema(java.lang.String)>", index: 0 }
+  - { method: "<javax.naming.directory.InitialDirContext: javax.naming.directory.DirContext getSchemaClassDefinition(javax.naming.Name)>", index: 0 }
+  - { method: "<javax.naming.directory.InitialDirContext: javax.naming.directory.DirContext getSchemaClassDefinition(java.lang.String)>", index: 0 }

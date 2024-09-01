@@ -1,0 +1,3 @@
+sinks:
+  # snakeyaml
+  - { method: "<org.yaml.snakeyaml.Yaml: java.lang.Object load(java.lang.String)>", index: 0 }

@@ -1,0 +1,3 @@
+sinks:
+  # defineClass ，对应 TemplatesImple
+  - { method: "<java.lang.ClassLoader: java.lang.Class defineClass(java.lang.String,byte[],int,int)>", index: 1 }

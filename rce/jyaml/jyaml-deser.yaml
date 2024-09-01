@@ -1,0 +1,5 @@
+sinks:
+  - { method: "<org.ho.yaml.Yaml: java.lang.Object load(java.lang.String)>" ,index: 0 }
+  - { method: "<org.ho.yaml.Yaml: org.ho.yaml.YamlStream loadStream(java.lang.String)>" ,index: 0 }
+  - { method: "<org.ho.yaml.Yaml: java.lang.Object loadType(java.lang.String,java.lang.Class)>" ,index: 0 }
+  - { method: "<org.ho.yaml.Yaml: org.ho.yaml.YamlStream loadStreamOfType(java.lang.String,java.lang.Class)>" ,index: 0 }

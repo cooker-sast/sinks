@@ -1,0 +1,8 @@
+sinks:
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object jsonToJava(java.lang.String)>", index: 0 }
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object jsonToJava(java.lang.String,java.util.Map)>", index: 0 }
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object readObject()>", index: base }
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object jsonToJava(java.io.InputStream,java.util.Map)>", index: 0 }
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object jsonToMaps(java.lang.String)>", index: 0 }
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object jsonToMaps(java.lang.String,java.util.Map)>", index: 0 }
+  - { method: "<com.cedarsoftware.util.io.JsonReader: java.lang.Object jsonToMaps(java.io.InputStream,java.util.Map)>", index: 0 }

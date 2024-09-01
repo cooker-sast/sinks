@@ -1,0 +1,2 @@
+sinks:
+  - { method: "<javax.management.remote.JMXConnectorFactory: javax.management.remote.JMXConnector connect(javax.management.remote.JMXServiceURL)>", index: 0 }

@@ -1,0 +1,11 @@
+sinks:
+  # sql 注入
+  - { method: "<java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String)>" , index: 0 }
+  - { method: "<java.sql.Statement: boolean execute(java.lang.String)>" , index: 0 }
+  - { method: "<org.apache.commons.dbutils.QueryRunner: java.lang.Object query(java.sql.Connection,java.lang.String,java.lang.Object[],org.apache.commons.dbutils.ResultSetHandler)>" , index: 1 }
+  - { method: "<org.apache.commons.dbutils.QueryRunner: java.lang.Object query(java.sql.Connection,java.lang.String,java.lang.Object,org.apache.commons.dbutils.ResultSetHandler)>" , index: 1 }
+  - { method: "<org.apache.commons.dbutils.QueryRunner: java.lang.Object query(java.sql.Connection,java.lang.String,org.apache.commons.dbutils.ResultSetHandler)>" , index: 1 }
+  - { method: "<org.apache.commons.dbutils.QueryRunner: java.lang.Object query(java.lang.String,java.lang.Object[],org.apache.commons.dbutils.ResultSetHandler)>" , index: 0 }
+  - { method: "<org.apache.commons.dbutils.QueryRunner: java.lang.Object query(java.lang.String,java.lang.Object,org.apache.commons.dbutils.ResultSetHandler)>" , index: 0 }
+  - { method: "<org.apache.commons.dbutils.QueryRunner: java.lang.Object query(java.lang.String,org.apache.commons.dbutils.ResultSetHandler)>" , index: 0 }
+  - { method: "<org.springframework.jdbc.core.JdbcTemplate: java.lang.Object execute(org.springframework.jdbc.core.ConnectionCallback)>" , index: 0 }

@@ -1,0 +1,4 @@
+sinks:
+  - { method: "<com.esotericsoftware.yamlbeans.YamlReader: java.lang.Object read()>", index: base }
+  - { method: "<com.esotericsoftware.yamlbeans.YamlReader: java.lang.Object read(java.lang.Class)>", index: base }
+  - { method: "<com.esotericsoftware.yamlbeans.YamlReader: java.lang.Object read(java.lang.Class,java.lang.Class)>", index: base }

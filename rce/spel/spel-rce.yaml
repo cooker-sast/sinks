@@ -1,0 +1,4 @@
+sinks:
+  # spel 注入
+  - { method: "<org.springframework.expression.Expression: java.lang.Object getValue()>", index: base }
+  - { method: "<org.springframework.expression.spel.standard.SpelExpression: java.lang.Object getValue()>", index: base }

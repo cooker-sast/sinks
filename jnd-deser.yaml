@@ -1,0 +1,3 @@
+sinks:
+  # 原生反序列化
+  - { method: "<java.io.ObjectInputStream: java.lang.Object readObject()>", index: base }

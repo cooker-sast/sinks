@@ -1,0 +1,3 @@
+sinks:
+  - { method: "<org.apache.commons.jxpath.JXPathContext: java.lang.Object getValue(java.lang.String)>",index: 0 }
+  - { method: "<org.apache.commons.jxpath.JXPathContext: java.lang.Object getValue(java.lang.String,java.lang.Class)>",index: 0 }

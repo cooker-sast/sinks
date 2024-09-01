@@ -1,0 +1,2 @@
+sinks:
+  - { method: "<freemarker.template.Template: void process(java.lang.Object,java.io.Writer)>", index: base }

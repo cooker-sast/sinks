@@ -1,0 +1,3 @@
+sinks:
+  - { method: "<freemarker.template.utility.Execute: java.lang.Object exec(java.util.List)>", index: 0 }
+

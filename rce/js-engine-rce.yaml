@@ -1,0 +1,5 @@
+sinks:
+  # js engine 注入
+  - { method: "<javax.script.AbstractScriptEngine: java.lang.Object eval(java.lang.String)>", index: 0 }
+  - { method: "<javax.script.ScriptEngine: java.lang.Object eval(java.lang.String,javax.script.Bindings)>", index: 0}
+  - { method: "<javax.script.ScriptEngine: java.lang.Object eval(java.lang.String)>", index: 0}

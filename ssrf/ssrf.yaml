@@ -1,0 +1,11 @@
+sinks:
+  # ssrf
+  - { method: "<java.net.URL: java.net.URLConnection openConnection()>", index: base}
+  - { method: "<java.net.URL: java.io.InputStream openStream()>", index: base}
+  - { method: "<java.net.URLConnection: java.io.InputStream getInputStream()>", index: base}
+  - { method: "<java.net.HttpURLConnection: java.io.InputStream getInputStream()>", index: base}
+  - { method: "<org.apache.http.client.fluent.Request: org.apache.http.client.fluent.Response execute()>", index: base}
+  - { method: "<javax.imageio.ImageIO: java.awt.image.BufferedImage read(java.net.URL)>", index: 0}
+  - { method: "<com.squareup.okhttp.Call: com.squareup.okhttp.Response execute()>", index: base}
+  - { method: "<org.jsoup.helper.HttpConnection: org.jsoup.Connection$Response execute()>", index: base}
+  - { method: "<org.apache.http.impl.client.CloseableHttpClient: org.apache.http.client.methods.CloseableHttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>", index: 0}
