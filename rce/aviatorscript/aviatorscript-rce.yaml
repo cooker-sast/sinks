@@ -1,0 +1,6 @@
+sinks:
+  - { method: "<com.googlecode.aviator.AviatorEvaluatorInstance: java.lang.Object execute(java.lang.String)>", index: 0 }
+  - { method: "<com.googlecode.aviator.AviatorEvaluatorInstance: java.lang.Object execute(java.lang.String,java.util.Map)>", index: 0 }
+  - { method: "<com.googlecode.aviator.AviatorEvaluatorInstance: java.lang.Object execute(java.lang.String,java.util.Map,boolean)>", index: 0 }
+  - { method: "<com.googlecode.aviator.Expression: java.lang.Object execute(java.util.Map)>", index: base }
+  - { method: "<com.googlecode.aviator.BaseExpression: java.lang.Object execute(java.util.Map)>", index: base }

@@ -1,0 +1,5 @@
+sinks:
+  - { method: "<org.apache.commons.jexl3.JexlExpression: java.lang.Object evaluate(org.apache.commons.jexl3.JexlContext)>", index: base }
+  - { method: "<org.apache.commons.jexl3.internal.Script: java.lang.Object evaluate(org.apache.commons.jexl3.JexlContext)>", index: base }
+  - { method: "<org.apache.commons.jexl3.internal.Script: java.lang.Object execute(org.apache.commons.jexl3.JexlContext)>", index: base }
+  - { method: "<org.apache.commons.jexl3.internal.Script: java.lang.Object execute(org.apache.commons.java.lang.Object[])>", index: base }
