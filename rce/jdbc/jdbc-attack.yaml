@@ -1,0 +1,5 @@
+sinks:
+  # jdbc uri 注入
+  - { method: "<java.sql.DriverManager: java.sql.Connection getConnection(java.lang.String)>" , index: 0 }
+  - { method: "<java.sql.DriverManager: java.sql.Connection getConnection(java.lang.String,java.util.Properties,java.lang.Class)>" , index: 0 }
+  - { method: "<java.sql.Driver: java.sql.Connection connect(java.lang.String,java.util.Properties)>" , index: 0 }
